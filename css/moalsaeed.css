@@ -23,53 +23,6 @@ body {
 html {
     scroll-behavior: smooth;
 }
-
-::-webkit-scrollbar {
-    width: 15px;
-}
-
-::-webkit-scrollbar-track {
-    background-color: #f6f6f6;
-    box-shadow: 0 0 22px #ddd inset;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: var(--main-color);
-    border-radius: 7px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: var(--main-color-alt);
-}
-
-.scroller{
-    background-color: var(--main-color);
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 5px;
-    z-index: 10000;
-}
-.up{
-    position: fixed;
-    bottom: -50px;
-    right: 30px;
-    font-size: 20px;
-    background-color: var(--main-color);
-    color: white;
-    padding: 7px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    z-index: 1000;
-    transition: var(--main-transition);
-}
-.up:hover{
-    background-color: var(--main-color-alt);
-}
-.show{
-    bottom: 15px;
-}
-
 a {
     text-decoration: none;
 }
